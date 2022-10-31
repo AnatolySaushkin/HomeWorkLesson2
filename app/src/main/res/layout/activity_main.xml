@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:layout_margin="20dp"
-    android:background="calc"
+    android:background="@drawable/calculator"
     android:columnCount="4"
     tools:context=".MainActivity">
 
