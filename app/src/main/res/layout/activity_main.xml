@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
     android:layout_margin="20dp"
     android:background="@drawable/calculator"
     android:columnCount="4"
@@ -13,6 +13,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
+        android:layout_rowWeight="0"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_1" />
@@ -20,6 +22,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_2" />
@@ -27,6 +30,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_3" />
@@ -34,6 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_minus" />
@@ -41,6 +46,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_4" />
@@ -48,6 +54,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_5" />
@@ -55,6 +62,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_6" />
@@ -62,6 +70,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_plus" />
@@ -69,6 +78,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_7" />
@@ -76,6 +86,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_8" />
@@ -83,6 +94,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_9" />
@@ -90,13 +102,15 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
-        android:text="@string/key_x" />
+        android:text="@string/key_multiply" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnSpan="2"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
@@ -107,6 +121,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
         android:layout_columnWeight="1"
         android:layout_margin="2dp"
         android:text="@string/key_dot" />
@@ -115,8 +130,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="0"
         android:layout_columnWeight="1"
+        android:layout_gravity="fill"
         android:layout_margin="2dp"
-        android:text="@string/key_delete" />
+        android:text="@string/key_divide" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="2dp"
+        android:text="@string/key_result" />
 
 </GridLayout>
